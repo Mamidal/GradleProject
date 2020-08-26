@@ -35,6 +35,7 @@ sonarqube {
     properties {
         property 'sonar.projectName', 'Gradle_Sonar'
         property 'sonar.projectKey', 'SonarTest:1.0'
+        properties["sonar.tests"] += sourceSets.integTest.allSource.srcDirs
        // property 'sonar.tests', '${project.basedir}/GradleProject/src'
         property 'sonar.jacoco.reportPaths', '${project.basedir}/build/jacoco/test.exec'
         //property 'sonar.pullrequest.github.repository', 'https://github.com/jayavardhan123/GradleProject.git'

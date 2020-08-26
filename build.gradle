@@ -21,7 +21,10 @@ repositories {
 
 jacoco {
     toolVersion = '0.8.3'
-    reports {
+}
+
+jacocoTestReport {
+       reports {
         html.enabled = true
         csv.enabled = true
     }

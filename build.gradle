@@ -48,5 +48,4 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-    classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2'
 }

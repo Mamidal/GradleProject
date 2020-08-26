@@ -7,13 +7,20 @@ import java.util.ArrayList;
 
 public class Library {
 	
-	public void addition(int a , int b) {
-		System.out.println(a + b);
-	}
-	
-	public static void main(String[] args) {
-		Library obj = new Library();
-		obj.addition(2,2);
-	}
+	public static int findMax(int arr[]){  
+
+        int max=0;  
+
+        for(int i=1;i<arr.length;i++){  
+
+            if(max<arr[i])  
+
+                max=arr[i];  
+
+        }  
+
+        return max;  
+
+    } 
 }
 

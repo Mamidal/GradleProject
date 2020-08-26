@@ -7,8 +7,13 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
-    @Test 
-    public void testSomeLibraryMethod() {
-        System.out.println("My Test");
+    @Test  
+
+    public void FindMax(){  
+
+        assertEquals(4,Calculation.findMax(new int[]{1,3,4,2}));  
+
+        assertEquals(-1,Calculation.findMax(new int[]{-12,-1,-3,-4,-2}));  
+
     }
 }

@@ -20,7 +20,7 @@ repositories {
 }
 
 jacoco {
-    toolVersion = '1.1'
+    toolVersion = '0.8.2'
 }
 
 jacocoTestReport {
@@ -51,3 +51,5 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
+
+apply plugin: 'jacoco'

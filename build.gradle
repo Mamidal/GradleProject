@@ -28,6 +28,10 @@ jacocoTestReport {
         html.enabled = true
         csv.enabled = true
     }
+    
+    jacoco {
+           destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+    }
 }
 
 

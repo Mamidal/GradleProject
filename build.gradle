@@ -20,7 +20,7 @@ repositories {
 }
 
 jacoco {
-    toolVersion = "0.8.3"
+    toolVersion = '0.8.3'
 }
 
 jacocoTestReport {
@@ -32,10 +32,10 @@ jacocoTestReport {
 
 sonarqube {
     properties {
-        property "sonar.projectName", "Gradle_Sonar"
+        property 'sonar.projectName', 'Gradle_Sonar'
         //property "sonar.projectKey", "org.sonarqube:SonarTest"
-        property "sonar.pullrequest.github.repository", "https://github.com/jayavardhan123/GradleProject.git"
-        property "sonar.sourceEncoding", "UTF-8"
+        //property 'sonar.pullrequest.github.repository', 'https://github.com/jayavardhan123/GradleProject.git'
+        property 'sonar.sourceEncoding', 'UTF-8'
     }
 }
 

@@ -7,13 +7,11 @@ import java.util.ArrayList;
 
 public class Library {
 	public void m1() {
-    	String s = "";
     	ArrayList<Integer> list = new ArrayList<Integer>();
     	list.add(1);
-    	list = null;
     	list.add(2);
     	Object obj = getData();
-    	System.out.println(obj.toString());
+    	//System.out.println(obj.toString());
     			
     }    
      
@@ -27,7 +25,7 @@ public class Library {
     
 	public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       // System.out.println( "Hello World!" );
         Library app = new Library();
         app.m1();
     }

@@ -33,7 +33,7 @@ jacocoTestReport {
 sonarqube {
     properties {
         property 'sonar.projectName', 'Gradle_Sonar'
-        //property "sonar.projectKey", "org.sonarqube:SonarTest"
+        property 'sonar.projectKey', 'Sonar:SonarTest'
         //property 'sonar.pullrequest.github.repository', 'https://github.com/jayavardhan123/GradleProject.git'
         property 'sonar.sourceEncoding', 'UTF-8'
     }

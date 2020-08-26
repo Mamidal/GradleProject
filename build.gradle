@@ -56,4 +56,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-apply plugin: 'jacoco'
+//apply plugin: 'jacoco'

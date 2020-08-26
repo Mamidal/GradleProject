@@ -23,15 +23,12 @@ jacoco {
     toolVersion = '0.8.2'
 }
 
-    test {
-        useJUnitPlatform()
+jacocoTestReport {
+    reports {
+        html.enabled = true
+        csv.enabled = true
     }
-    jacocoTestReport {
-         reports {
-            html.enabled = true
-            csv.enabled = true
-        }
-   }
+}
 
 
 sonarqube {

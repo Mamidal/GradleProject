@@ -9,10 +9,10 @@ import static org.junit.Assert.*;
 public class LibraryTest {
     
     
-    @Test  
-    public void FindMax(){  
-
-        assertEquals(4,new Calculation.findMax(int[]{1,3,4,2}));   
-
-    }
+    Calculation obj = new Calculation();
+	
+	@Test
+	public void testAddition() {
+		assertEquals(4, obj.addition(2,2));
+	}
 }

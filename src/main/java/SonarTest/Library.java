@@ -7,20 +7,13 @@ import java.util.ArrayList;
 
 public class Library {
 	
-	public static int findMax(int arr[]){  
-
-        int max=0;  
-
-        for(int i=1;i<arr.length;i++){  
-
-            if(max<arr[i])  
-
-                max=arr[i];  
-
-        }  
-
-        return max;  
-
-    } 
+	int a;
+	int b;
+	int result;
+	
+	public int addition(int a, int b) {
+		result = a + b;
+		return result;
+	}
 }
 

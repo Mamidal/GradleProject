@@ -10,6 +10,7 @@ plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
     id 'jacoco'
+    id "org.sonarqube" version "3.0"
 }
 
 repositories {
@@ -26,6 +27,15 @@ jacocoTestReport {
     reports {
         html.enabled = true
         csv.enabled = true
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "Gradle-Sonar"
+        property "sonar.projectKey", "GradleProject"
+        property "sonar.pullrequest.github.reository", "https://github.com/jayavardhan123/GradleProject.git"
+        property "sonar.sourceEncoding", "UTF-8"
     }
 }
 

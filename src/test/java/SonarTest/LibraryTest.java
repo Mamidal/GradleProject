@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 public class LibraryTest {
     
     
-    Calculation obj = new Calculation();
+    Library obj = new Library();
 	
 	@Test
 	public void testAddition() {

@@ -6,7 +6,7 @@ package SonarTest;
 import java.util.ArrayList;
 
 public class Library {
-/*	public void m1() {
+	public void m1() {
     	ArrayList<Integer> list = new ArrayList<Integer>();
     	list.add(1);
     	list.add(2);
@@ -29,6 +29,6 @@ public class Library {
         Library app = new Library();
         app.m1();
     }
-    */
+    
 }
 

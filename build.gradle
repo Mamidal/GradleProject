@@ -34,7 +34,7 @@ jacocoTestReport {
 
 sonarqube {
     properties {
-        property 'sonar.projectName', 'Gradle_Sonar'
+        property 'sonar.projectName', 'Gradle_Sonar-1'
         property 'sonar.host.url', 'http://localhost:9000'
         //property 'sonar.login', 'a6298c3beb4ef9d8a22a427d4bd0b25a393a0ecf'
         property 'sonar.projectKey', 'SonarTest:1.0'

@@ -6,21 +6,14 @@ package SonarTest;
 import java.util.ArrayList;
 
 public class Library {
-	public void m1() {
-    	ArrayList<Integer> list = new ArrayList<Integer>();
-    	list.add(1);
-    	list.add(2);
-    	Object obj = getData();
-    	//System.out.println(obj.toString());
-    			
-    }    
-    
-	public static void main( String[] args )
-    {
-       // System.out.println( "Hello World!" );
-        Library app = new Library();
-        app.m1();
-    }
+	
+	public void addition(int a , int b) {
+		System.out.println(a + b);
+	}
+	
+	public static void main(String[] args)
+		Library obj = new Library();
+		obj.addition(2,2);
     
 }
 

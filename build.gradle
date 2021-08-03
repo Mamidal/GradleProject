@@ -26,12 +26,10 @@ jacoco {
 jacocoTestReport {
     reports {
         html.enabled = true
-      csv.enabled = true
-      xml.enabled = true
+        csv.enabled = true
+        xml.enabled = true
   }
 }
-
-
 sonarqube {
     properties {
       property "sonar.projectKey", "Mamidal_GradleProject"
